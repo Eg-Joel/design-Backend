@@ -13,7 +13,7 @@ mongoose.connect(
     console.log(err);
 })
 const corsOptions = {
-    origin: ['http://localhost:3000','http://localhost:5173' ],
+    origin: ['http://localhost:3000','http://localhost:5173','https://design-frontend.vercel.app/','https://designdata.onrender.com' ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', 
     credentials: true,
   };
